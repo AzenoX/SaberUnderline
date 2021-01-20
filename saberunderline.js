@@ -1,7 +1,4 @@
-
 class SaberUnderline{
-
-    els = null;
 
     constructor(els) {
         //If it's a HTMLElement
