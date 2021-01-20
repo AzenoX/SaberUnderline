@@ -54,7 +54,7 @@ Here is a basic usage (Almost everything can be personalized with html attribute
 <table class="table table-bordered table-striped">
 	<thead>
 		<tr>
-			<th style="width: 100px;">Name</th>
+			<th style="width: 250px;">Name</th>
 			<th style="width: 100px;">Default Value</th>
 			<th>description</th>
 		</tr>
