@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        h1, h2{
+            width: fit-content;
+        }
+    </style>
+</head>
+
+
+<body>
+
+<h1 class="saberunderline"
+    data-preset="luke"
+    data-animation-length="1s">
+        Use the force Luke No, I am your father!
+</h1>
+
+<br><br>
+
+<h2 id="anakinSaber"
+    class="saberunderline"
+    data-interact="false"
+    data-preset="anakin">
+        From my point of view, the Jedi are evil!
+</h2>
+
+<br><br>
+
+<h2
+    id="vadorSaber"
+    class="saberunderline"
+    data-preset="vador">
+        No, I am your father! No, I am your father!
+</h2>
+
+<br><br>
+
+<h2
+    class="saberunderline"
+    data-preset="ahsoka">
+        No, I am your father! No, I am your father!
+</h2>
+
+<br><br>
+
+<h2
+    class="saberunderline"
+    data-preset="palpatine">
+        No, I am your father! No, I am your father!
+</h2>
+
+<br><br>
+
+<h2
+    class="saberunderline"
+    data-color="purple"
+    data-hilt="./sabers/ahsoka.png"
+    data-bladeOffsetX="-10px"
+    data-bladeOffsetY="0">
+        No, I am your father! No, I am your father!
+</h2>
+
+
+
+<script src="saberunderline.js"></script>
+<script>
+    let el = document.querySelectorAll('.saberunderline');
+    new SaberUnderline(el).init();
+
+    //Little Animation
+    setTimeout(function(){
+        let saber = new SaberUnderline('#anakinSaber');
+        saber.setWidth('100%', "1s");
+        saber.setColor('red', "1s");
+    },500)
+</script>
+
+</body>
+
+
+</html>
