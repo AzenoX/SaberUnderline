@@ -6,7 +6,7 @@ Little Script for adding some underline with lightsabers
 
 ## Getting Started
 
-Demo: [https://azenox.fr/demo/saberunderline.html](https://azenox.fr/demo/saberunderline.html)
+Demo: [https://azenox.fr/demos/saber/saber.html](https://azenox.fr/demos/saber/saber.html)
 
 ### Install
 
